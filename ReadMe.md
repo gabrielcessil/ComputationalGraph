@@ -37,7 +37,6 @@ f(x,y,z) = (xy + y^{\sin(z)})xy
 
 ### **With these analytical forms, we can verify the numerical results of the computational graph.**
 
----
 
 ## **Given:**
 x = 1
@@ -57,7 +56,7 @@ Partial Derivatives:
 
   df/dz = 4.897763459363576
 
-----------------------------------------
+
 
 ### Computed values
 ----------------------------------------
