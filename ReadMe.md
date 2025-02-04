@@ -14,13 +14,13 @@ In modern numerical computing and machine learning, automatic differentiation (A
 
 ## Let's define the following example of $f(x,y,z)$
 
-$f(x,y,z) = (xy + y^{sin(z)})xy$
+$f(x,y,z) = \(xy + y^{sin(z)}\)xy$
 
 ## Where the partial derivatives are analycally defined as:
 
-$\frac{df}{dx}=y(2xy+y^{sin(z)})$
+$\frac{df}{dx}=y\(2xy+y^{sin(z)}\)$
 
-$\frac{df}{dy}=x(2xy+sin(z)y^{sin(z)}+y^{sin(z)})$
+$\frac{df}{dy}=x\(2xy+sin(z)y^{sin(z)}+y^{sin(z)}\)$
 
 $\frac{df}{dz}=xln(y)cos(z)y^{sin(z)+1}$
 
@@ -28,7 +28,9 @@ $\frac{df}{dz}=xln(y)cos(z)y^{sin(z)+1}$
 
 ### Given:
   x = 1
+  
   y = 3
+  
   z = 0.5
   
 ### Analytical values
