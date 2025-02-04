@@ -76,6 +76,22 @@ Partial Derivatives:
 
 ## Structure output example: 
 
+x is assigned to  var0 
+
+y is assigned to  var1 
+
+z is assigned to  var2 
+
+Op1 is assinged to  var3 
+
+Op2 is assinged to  var4 
+
+Op3 is assinged to  var5 
+
+Op4 is assinged to  var6 
+
+Result is assinged to  var7 
+
 🔗 var7: MULT
 
    ├──🔗 var6: ADD
