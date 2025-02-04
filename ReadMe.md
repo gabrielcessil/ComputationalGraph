@@ -14,7 +14,7 @@ In modern numerical computing and machine learning, automatic differentiation (A
 
 ## Let's define the following example of $f(x,y,z)$
 
-$f(x,y,z) = \(xy + y^{sin(z)}\)xy$
+$f(x,y,z) = \(xy + y^{sin(z)}\)x*y$
 
 ## Where the partial derivatives are analycally defined as:
 
