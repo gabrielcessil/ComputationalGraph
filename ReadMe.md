@@ -77,16 +77,27 @@ Partial Derivatives:
 ## Structure output example: 
 
 🔗 var7: MULT
+
    ├──🔗 var6: ADD
+   
    ├──   ├──🔗 var3: MULT
+   
    ├──   ├──   ├──🔗 var0: SCAL
+   
    ├──   ├──   └──🔗 var1: SCAL
+
    ├──   └──🔗 var5: POW
+   
    ├──   └──   ├──🔗 var1: SCAL
+   
    ├──   └──   └──🔗 var4: SIN
+   
    ├──   └──   └──   └──🔗 var2: SCAL
+   
    └──🔗 var3: MULT
+   
    └──   ├──🔗 var0: SCAL
+   
    └──   └──🔗 var1: SCAL
 
  **Unfornutelly, the current state of the code still do not support matrices.**
