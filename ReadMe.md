@@ -17,23 +17,23 @@ In modern numerical computing and machine learning, **automatic differentiation 
 
 ## **Let's define the following function \\( f(x,y,z) \\)**
 
-\[
+$$
 f(x,y,z) = (xy + y^{\sin(z)})xy
-\]
+$$
 
 ## **Where the partial derivatives are analytically defined as:**
 
-\[
+$$
 \frac{df}{dx} = y(2xy+y^{\sin(z)})
-\]
+$$
 
-\[
+$$
 \frac{df}{dy} = x(2xy+\sin(z)y^{\sin(z)}+y^{\sin(z)})
-\]
+$$
 
-\[
+$$
 \frac{df}{dz} = x\ln(y)\cos(z)y^{\sin(z)+1}
-\]
+$$
 
 ### **With these analytical forms, we can verify the numerical results of the computational graph.**
 
