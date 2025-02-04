@@ -39,9 +39,11 @@ f(x,y,z) = (xy + y^{\sin(z)})xy
 
 
 ## **Given:**
-x = 1
-y = 3
-z = 0.5
+x = 1;
+
+y = 3;
+
+z = 0.5;
 
   
 ### Analytical values
