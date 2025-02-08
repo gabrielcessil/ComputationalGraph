@@ -1,8 +1,17 @@
 # **Computational Graph-Based Automatic Differentiation**
 
 ## **Project Overview**
-In modern numerical computing and machine learning, **automatic differentiation (AutoDiff)** plays a crucial role in efficiently computing gradients for optimization problems. This project implements a **computational graph-based automatic differentiation system**, where mathematical expressions are represented as **directed graphs**. Each node in the graph corresponds to an operation (e.g., addition, multiplication, sine, power), while edges capture dependencies between variables.
+In modern numerical computing and machine learning, **automatic differentiation (AutoDiff)** plays a crucial role in efficiently computing gradients for optimization problems like **Neural Networks Backpropagation**. For those unfamiliar with Neural Networks theory, the backpropagation is the main driven force of training the model (learning about data) and it involves taking the partial derivatives of each one of the huge amount of adjustable parameters (compute how much each parameter influenciate the output and it's error in order to better tune it).
 
+There are a handfull of methods of automatic differentiation, here you will find a Forward. This method enables to numerically evaluate **all** partial derivatives, given certain input values, taking no much longer than the processing time to evaluate the function output itself.
+
+To do so, this project implements a **computational graph-based automatic differentiation system**, where mathematical expressions are represented as **directed graphs** based on python dictionaries and modularize it into classes. Each node in the graph corresponds to an operation (e.g., addition, multiplication, sine, power), while edges capture dependencies between variables.
+
+### Complementary material about automatic differentiation:
+- Amazing video with a very visual explanation: https://www.youtube.com/watch?v=wG_nF1awSSY
+- Another great video but considering the Reverse method: https://www.youtube.com/watch?v=he_86Y4lQLw
+- Full material in blog post format: https://www.ams.org/publicoutreach/feature-column/fc-2017-12
+  
 ---
 
 ## **Project Features**
