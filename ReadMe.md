@@ -125,8 +125,14 @@ Result is assinged to  var7
    
    └──   └──🔗 var1: SCAL
 
-## **Unfornutelly, the current state of the code still do not support matrices.**
-## **Feel free to add examples and use it as a didactic source**
+---
+# Current State and Next Steps:
+
+- Unfortunately, the current state of the code does not yet support matrix operations. Consequently, backpropagation for Neural Networks is also not currently supported. This feature will be added in future versions.
+- Operation overloading is pretty much straight-forward, it was not implemented in this example to keep the examples more readable and less pythonic.
+- Distributed computing and graph optimization would be essential for real applications.
+ 
+ **Feel free to add examples and use it as a didactic source**
 
 
 
